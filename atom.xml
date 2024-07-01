@@ -11,7 +11,7 @@
     <updated>2024-07-01T07:29:02.000Z</updated>
     <entry>
         <id>https://superjeason.github.io/2024/07/01/STL/STL-%E4%BA%8C/</id>
-        <title>STL(二)</title>
+        <title>STL迭代器及算法</title>
         <link rel="alternate" href="https://superjeason.github.io/2024/07/01/STL/STL-%E4%BA%8C/"/>
         <content type="html">&lt;h1 id=&#34;迭代器简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#迭代器简介&#34;&gt;#&lt;/a&gt; 迭代器简介&lt;/h1&gt;
 &lt;h2 id=&#34;迭代器是什么&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#迭代器是什么&#34;&gt;#&lt;/a&gt; 迭代器是什么？&lt;/h2&gt;
@@ -270,7 +270,7 @@ M834 80h400000v40h-400000z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/s
     </entry>
     <entry>
         <id>https://superjeason.github.io/2024/07/01/STL/STL-%E4%B8%80/</id>
-        <title>STL(一)</title>
+        <title>STL常用容器</title>
         <link rel="alternate" href="https://superjeason.github.io/2024/07/01/STL/STL-%E4%B8%80/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;C++ 标准模板库 (STL, Standard Template Library)&lt;/strong&gt;：包含一些常用数据结构与算法的模板的 C++ 软件库。其包含四个组件 —— 算法 (Algorithms)、容器 (Containers)、仿函数 (Functors)、迭代器 (Iterators).&lt;/p&gt;
 &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
