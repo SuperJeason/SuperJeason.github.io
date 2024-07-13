@@ -1,0 +1,416 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><link rel="alternate" href="/rss.xml" title="Never Give Up" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="Never Give Up" type="application/atom+xml"><link rel="alternate" type="application/json" title="Never Give Up" href="https://superjeason.github.io/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="/css/app.css?v=0.4.9"><link rel="modulepreload" href="/js/chunk-CYMD7CT3.js"></link><link rel="modulepreload" href="/js/chunk-MQ4F7KF2.js"></link><link rel="modulepreload" href="/js/chunk-VXLNOVZ2.js"></link><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"></link><link rel="modulepreload" href="/js/comments-NOZN4DRF.js"></link><link rel="modulepreload" href="/js/copy-tex-74XBU5BP.js"></link><link rel="modulepreload" href="/js/post-CMQ5DT36.js"></link><link rel="modulepreload" href="/js/quicklink-VKCDJ3NX.js"></link><link rel="modulepreload" href="/js/siteInit.js"></link><link rel="modulepreload" href="/js/waline-2AUA5EA7.js"></link><link rel="stylesheet" href="/css/comments-SJZAII77.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="stylesheet" href="/css/waline-ZFRMIHOE.css" media="none" onload="this.media&#x3D;&#39;all&#39;"></link><link rel="preload" href="https://i.111666.best/image/EU5SbcGXgCtqp9z1MqsmTi.jpg" as="image" fetchpriority="high"><meta name="keywords" content="markdown"/><meta name="description" content="markdown语法详细介绍"/><link rel="canonical" href="https://superjeason.github.io/2024/06/20/markdown/"><title>markdown</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">markdown</h1><div class="meta"><span class="item" title="Created: 2024-06-20 20:42:12"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">Posted on</span><time itemprop="dateCreated datePublished" datetime="2024-06-20T20:42:12+08:00">2024-06-20</time></span><span class="item" title="Symbols count in article"><span class="icon"><i class="ic i-pen"></i></span><span class="text">Symbols count in article</span><span>7.7k</span><span class="text">words</span></span><span class="item" title="Reading time"><span class="icon"><i class="ic i-clock"></i></span><span class="text">Reading time</span><span>7 mins.</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="Toggle navigation bar"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">SuperJeason</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><img src="https://i.111666.best/image/EU5SbcGXgCtqp9z1MqsmTi.jpg" loading="eager" decoding="async" fetchpriority="high" alt="Never Give Up"></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">Home</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E8%AF%AD%E6%B3%95/" itemprop="item" rel="index" title="In语法"><span itemprop="name">语法<meta itemprop="position" content="0"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="en"><link itemprop="mainEntityOfPage" href="https://superjeason.github.io/2024/06/20/markdown/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"/><meta itemprop="name" content="SuperJeason"/><meta itemprop="description" content=", Practice makes perfect"/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="Never Give Up"/></span><div class="body md" itemprop="articleBody"><h2 id="什么是-markdown"><a class="anchor" href="#什么是-markdown">#</a> 什么是 Markdown ?</h2>
+<blockquote>
+<p>Markdown 是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+</blockquote>
+<h2 id="分级标题"><a class="anchor" href="#分级标题">#</a> 分级标题</h2>
+<p>第一种写法:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token title important">这是一个一级标题</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token punctuation">============================</span></span></pre></td></tr><tr><td data-num="3"></td><td><pre></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token title important">这是一个二级标题</pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token punctuation">--------------------------------------------------</span></span></pre></td></tr></table></figure><blockquote>
+<h1 id="这是一个一级标题"><a class="anchor" href="#这是一个一级标题">#</a> 这是一个一级标题</h1>
+<h2 id="这是一个二级标题"><a class="anchor" href="#这是一个二级标题">#</a> 这是一个二级标题</h2>
+</blockquote>
+<hr />
+<p>第二种写法:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法 </span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token title important"><span class="token punctuation">#</span> 一级标题</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token title important"><span class="token punctuation">##</span> 二级标题</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token title important"><span class="token punctuation">###</span> 三级标题</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token title important"><span class="token punctuation">####</span> 四级标题</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token title important"><span class="token punctuation">#####</span> 五级标题</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token title important"><span class="token punctuation">######</span> 六级标题</span></pre></td></tr></table></figure><blockquote>
+<h1 id="一级标题"><a class="anchor" href="#一级标题">#</a> 一级标题</h1>
+<h2 id="二级标题"><a class="anchor" href="#二级标题">#</a> 二级标题</h2>
+<h3 id="三级标题"><a class="anchor" href="#三级标题">#</a> 三级标题</h3>
+<h4 id="四级标题"><a class="anchor" href="#四级标题">#</a> 四级标题</h4>
+<h5 id="五级标题"><a class="anchor" href="#五级标题">#</a> 五级标题</h5>
+<h6 id="六级标题"><a class="anchor" href="#六级标题">#</a> 六级标题</h6>
+</blockquote>
+<h2 id="分隔线"><a class="anchor" href="#分隔线">#</a> 分隔线</h2>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>n</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token hr punctuation">* * *</span></pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token hr punctuation">***</span></pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token hr punctuation">*****</span></pre></td></tr><tr><td data-num="6"></td><td><pre></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token hr punctuation">- - -</span></pre></td></tr><tr><td data-num="8"></td><td><pre></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token hr punctuation">---------------------------------------</span></pre></td></tr></table></figure><blockquote>
+<hr />
+<hr />
+</blockquote>
+<h2 id="超链接"><a class="anchor" href="#超链接">#</a> 超链接</h2>
+<p>Markdown 支持两种形式的链接语法：行内式和参考式两种形式，行内式一般使用较多。</p>
+<h3 id="行内式"><a class="anchor" href="#行内式">#</a> 行内式</h3>
+<p><code>[]</code>  里写链接文字， <code>()</code>  里写链接地址， <code>()</code>  中的  <code>&quot;&quot;</code>  中可以为链接指定 title 属性，title 属性可加可不加。title 属性的效果是鼠标悬停在链接上会出现指定的 title 文字。 <code>[链接文字](链接地址 &quot;链接标题&quot;)</code>  这样的形式。链接地址与链接标题前有一个空格。</p>
+<h3 id="参考式"><a class="anchor" href="#参考式">#</a> 参考式</h3>
+<p>参考式超链接一般用在学术论文上面，或者另一种情况，如果某一个链接在文章中多处使用，那么使用引用的方式创建链接将非常好，它可以让你对链接进行统一的管理。</p>
+<p>参考式链接分为两部分，文中的写法  <code>[链接文字][链接标记]</code> ，在文本的任意位置添加  <code>[链接标记]:链接地址 &quot;链接标题&quot;</code> , 链接地址与链接标题前有一个空格。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>全球最大的搜索引擎网站是<span class="token url">[<span class="token content">Google</span>][<span class="token variable">1</span>]</span>。</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>[1]:http://www.google.com "Google"</pre></td></tr></table></figure><blockquote>
+<p>全球最大的搜索引擎网站是 <a target="_blank" rel="noopener" href="http://www.google.com" title="Google">Google</a>。<br />
+&lt;br /&gt;</p>
+</blockquote>
+<h3 id="自动链接"><a class="anchor" href="#自动链接">#</a> 自动链接</h3>
+<p>Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用  <code>&lt;&gt;</code>  包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>&lt;https://google.com/></pre></td></tr></table></figure><h2 id="区块引用"><a class="anchor" href="#区块引用">#</a> 区块引用</h2>
+<p>区块引用需要在被引用的文本前加上  <code>&gt;</code>  符号。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token blockquote punctuation">></span> 这是一个区块引用实例,</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token blockquote punctuation">></span> Markdown.</pre></td></tr></table></figure><blockquote>
+<p>这是一个区块引用实例，</p>
+</blockquote>
+<blockquote>
+<p>Markdown.</p>
+</blockquote>
+<p>Markdown 也允许你偷懒只在整个段落的第一行最前面加上  <code>&gt;</code>  :</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token blockquote punctuation">></span> 平生不会相思,</pre></td></tr><tr><td data-num="2"></td><td><pre>才会相思,</pre></td></tr><tr><td data-num="3"></td><td><pre>便害相思。</pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token blockquote punctuation">></span> 空一缕余香在此,</pre></td></tr><tr><td data-num="6"></td><td><pre>盼千金游子何之。</pre></td></tr></table></figure><blockquote>
+<p>平生不会相思，<br />
+ 才会相思，<br />
+ 便害相思。</p>
+</blockquote>
+<blockquote>
+<p>空一缕余香在此，<br />
+ 盼千金游子何之。</p>
+</blockquote>
+<h3 id="引用的多层嵌套"><a class="anchor" href="#引用的多层嵌套">#</a> 引用的多层嵌套</h3>
+<p>区块引用可以嵌套（例如：引用内的引用）, 只要根据层次加上不同数量的  <code>&gt;</code>  :</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token blockquote punctuation">>>></span> 锄禾日当午, 汗滴禾下土。 - 李绅</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token blockquote punctuation">>></span> 山有木兮木有枝, 心悦君兮君不知。 - 越人歌</pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token blockquote punctuation">></span> 去年今日此门中, 人面桃花相映红。 - 崔护</pre></td></tr></table></figure><blockquote>
+<blockquote>
+<blockquote>
+<p>锄禾日当午，汗滴禾下土。 - 李绅</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>山有木兮木有枝，心悦君兮君不知。 - 越人歌</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>去年今日此门中，人面桃花相映红。 - 题都城南庄</p>
+</blockquote>
+<h3 id="引用其它要素"><a class="anchor" href="#引用其它要素">#</a> 引用其它要素</h3>
+<p>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 入我相思门, 知我相思苦。</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token blockquote punctuation">></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 长相思兮长相忆, 短相思兮无穷极。</pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token blockquote punctuation">></span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 给出一些例子代码:</pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token blockquote punctuation">></span> ```markdown markdown写法</pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token blockquote punctuation">></span>   return debug_backtrace();</pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token blockquote punctuation">></span> ```</pre></td></tr><tr><td data-num="9"></td><td><pre>``` markdown markdown</pre></td></tr><tr><td data-num="10"></td><td><pre></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 入我相思门, 知我相思苦。</pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token blockquote punctuation">></span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 长相思兮长相忆, 短相思兮无穷极。</pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token blockquote punctuation">></span></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token blockquote punctuation">></span> <span class="token list punctuation">-</span> 给出一些例子代码:</pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token blockquote punctuation">></span></pre></td></tr><tr><td data-num="17"></td><td><pre><span class="token blockquote punctuation">></span> ```markdown markdown写法</pre></td></tr><tr><td data-num="18"></td><td><pre><span class="token blockquote punctuation">></span>   return debug_backtrace();</pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token blockquote punctuation">></span> ```</pre></td></tr><tr><td data-num="20"></td><td><pre></pre></td></tr><tr><td data-num="21"></td><td><pre><span class="token title important"><span class="token punctuation">##</span> 锚点</span></pre></td></tr><tr><td data-num="22"></td><td><pre></pre></td></tr><tr><td data-num="23"></td><td><pre>网页中, 锚点其实就是页内超链接, 也就是链接本文档内部的某些元素, 实现当前页面中的跳转。比如我这里写下一个锚点, 点击回到目录, 就能跳转到目录。 在目录中点击这一节, 就能跳过来。还有下一节的注脚。这些根本上都是用锚点来实现的。</pre></td></tr><tr><td data-num="24"></td><td><pre></pre></td></tr><tr><td data-num="25"></td><td><pre>```markdown markdown写法</pre></td></tr><tr><td data-num="26"></td><td><pre><span class="token bold"><span class="token punctuation">**</span><span class="token content"><span class="token url">[<span class="token content">⬆ top</span>](<span class="token url">#什么是-markdown-</span>)</span></span><span class="token punctuation">**</span></span></pre></td></tr></table></figure><p><strong><a href="#%E4%BB%80%E4%B9%88%E6%98%AF-markdown-">⬆ top</a></strong></p>
+<h2 id="强调"><a class="anchor" href="#强调">#</a> 强调</h2>
+<p>Markdown 使用星号 <code>*</code>  和底线 <code>_</code> 作为标记强调字词的符号。</p>
+<h3 id="斜体"><a class="anchor" href="#斜体">#</a> 斜体</h3>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token italic"><span class="token punctuation">*</span><span class="token content">花自飘零水自流</span><span class="token punctuation">*</span></span></pre></td></tr></table></figure><blockquote>
+<p><em>花自飘零水自流</em></p>
+</blockquote>
+<h3 id="粗体"><a class="anchor" href="#粗体">#</a> 粗体</h3>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token bold"><span class="token punctuation">**</span><span class="token content">花自飘零水自流</span><span class="token punctuation">**</span></span></pre></td></tr></table></figure><blockquote>
+<p><strong>花自飘零水自流</strong></p>
+</blockquote>
+<h3 id="删除线"><a class="anchor" href="#删除线">#</a> 删除线</h3>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token strike"><span class="token punctuation">~~</span><span class="token content">花自飘零水自流</span><span class="token punctuation">~~</span></span></pre></td></tr></table></figure><blockquote>
+<p><s>花自飘零水自流</s></p>
+</blockquote>
+<h2 id="列表"><a class="anchor" href="#列表">#</a> 列表</h2>
+<p>使用 *，+，- 表示无序列表。</p>
+<h3 id="无序列表"><a class="anchor" href="#无序列表">#</a> 无序列表</h3>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token list punctuation">-</span> 白头吟</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token list punctuation">-</span> 击鼓</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token list punctuation">-</span> 断句</pre></td></tr></table></figure><blockquote>
+<ul>
+<li>
+<p>白头吟</p>
+</li>
+<li>
+<p>击鼓</p>
+</li>
+<li>
+<p>断句</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="有序列表"><a class="anchor" href="#有序列表">#</a> 有序列表</h3>
+<p>有序列表则使用数字接着一个英文句点。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token list punctuation">1.</span> 白头吟</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token list punctuation">2.</span> 击鼓</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token list punctuation">3.</span> 断句</pre></td></tr></table></figure><blockquote>
+<ol>
+<li>
+<p>白头吟</p>
+</li>
+<li>
+<p>击鼓</p>
+</li>
+<li>
+<p>断句</p>
+</li>
+</ol>
+</blockquote>
+<h3 id="包含引用的列表"><a class="anchor" href="#包含引用的列表">#</a> 包含引用的列表</h3>
+<p>如果要在列表项目内放进引用，那  <code>&gt;</code>  就需要缩进:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token list punctuation">*</span> 菩提偈:</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>  > 菩提本无树，明镜亦非台。</pre></td></tr><tr><td data-num="4"></td><td><pre>  > 本来无一物，何处惹尘埃！</pre></td></tr></table></figure><ul>
+<li>
+<p>菩提偈:</p>
+<blockquote>
+<p>菩提本无树，明镜亦非台。<br />
+本来无一物，何处惹尘埃！</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="插入图片"><a class="anchor" href="#插入图片">#</a> 插入图片</h2>
+<p>图片的创建方式与超链接相似，而且和超链接一样也有两种写法，行内式和参考式写法。</p>
+<p>语法中图片 Alt 的意思是如果图片因为某些原因不能显示，就用定义的图片 Alt 文字来代替图片。 图片 Title 则和链接中的 Title 一样，表示鼠标悬停与图片上时出现的文字。 Alt 和 Title 都不是必须的，可以省略，但建议写上。</p>
+<h3 id="图片行内式"><a class="anchor" href="#图片行内式">#</a> 图片行内式</h3>
+<p><code>![图片Alt](图片地址 &quot;图片Title&quot;)</code></p>
+<pre><code class="language-markdown">
+</code></pre>
+<h3 id="图片参考式"><a class="anchor" href="#图片参考式">#</a> 图片参考式</h3>
+<p>在文档要插入图片的地方写  <code>![图片Alt][标记]</code> 。</p>
+<p>在文档的最后写上  <code>[标记]:图片地址 &quot;Title&quot;</code> 。</p>
+<h2 id="表格"><a class="anchor" href="#表格">#</a> 表格</h2>
+<ol>
+<li>不管是哪种方式，第一行为表头，第二行分隔表头和主体部分，第三行开始每一行为一个表格行。</li>
+<li>列于列之间用管道符 <code>|</code>  隔开。原生方式的表格每一行的两边也要有管道符。</li>
+<li>第二行还可以为不同的列指定对齐方向。默认为左对齐，在 <code>-</code>  右边加上 <code>:</code>  就右对齐。</li>
+</ol>
+<p>简单方式:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>诗名|作者|朝代</pre></td></tr><tr><td data-num="2"></td><td><pre>-|-|-</pre></td></tr><tr><td data-num="3"></td><td><pre>白头吟|卓文君|两汉</pre></td></tr><tr><td data-num="4"></td><td><pre>锦瑟|李商隐|唐代</pre></td></tr><tr><td data-num="5"></td><td><pre>登科后|孟郊|唐代</pre></td></tr></table></figure><table>
+<thead>
+<tr>
+<th>诗名</th>
+<th>作者</th>
+<th>朝代</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>白头吟</td>
+<td>卓文君</td>
+<td>两汉</td>
+</tr>
+<tr>
+<td>锦瑟</td>
+<td>李商隐</td>
+<td>唐代</td>
+</tr>
+<tr>
+<td>登科后</td>
+<td>孟郊</td>
+<td>唐代</td>
+</tr>
+</tbody>
+</table>
+<p>原生方式:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>|诗名|作者|朝代|</pre></td></tr><tr><td data-num="2"></td><td><pre>|-|-|-|</pre></td></tr><tr><td data-num="3"></td><td><pre>|白头吟|卓文君|两汉|</pre></td></tr><tr><td data-num="4"></td><td><pre>|锦瑟|李商隐|唐代|</pre></td></tr><tr><td data-num="5"></td><td><pre>|登科后|孟郊|唐代|</pre></td></tr></table></figure><table>
+<thead>
+<tr>
+<th>诗名</th>
+<th>作者</th>
+<th>朝代</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>白头吟</td>
+<td>卓文君</td>
+<td>两汉</td>
+</tr>
+<tr>
+<td>锦瑟</td>
+<td>李商隐</td>
+<td>唐代</td>
+</tr>
+<tr>
+<td>登科后</td>
+<td>孟郊</td>
+<td>唐代</td>
+</tr>
+</tbody>
+</table>
+<p>为表格第二列指定方向:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>诗名|名句</pre></td></tr><tr><td data-num="2"></td><td><pre>-|-:</pre></td></tr><tr><td data-num="3"></td><td><pre>梦微之|君埋泉下泥销骨。</pre></td></tr><tr><td data-num="4"></td><td><pre>上邪|上邪，我欲与君相知，长命无绝衰。</pre></td></tr></table></figure><table>
+<thead>
+<tr>
+<th>诗名</th>
+<th style="text-align:right">名句</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>梦微之</td>
+<td style="text-align:right">君埋泉下泥销骨。</td>
+</tr>
+<tr>
+<td>上邪</td>
+<td style="text-align:right">上邪，我欲与君相知，长命无绝衰。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="代码"><a class="anchor" href="#代码">#</a> 代码</h2>
+<p>对于程序员来说这个功能是必不可少的，插入程序代码的方式有两种，一种是利用缩进 (Tab), 另一种是利用 &quot;`&quot; 符号 (一般在 ESC 键下方) 包裹代码。</p>
+<ul>
+<li>插入行内代码，即插入一个单词或者一句代码的情况，使用 `code` 这样的形式插入。</li>
+<li>插入多行代码，可以使用缩进或者 ```code```, 具体看示例。</li>
+</ul>
+<h3 id="代码行内式"><a class="anchor" href="#代码行内式">#</a> 代码行内式</h3>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>PHP打印堆栈信息 <span class="token code-snippet code keyword">`debug_backtrace()`</span>。</pre></td></tr></table></figure><blockquote>
+<p>PHP 打印堆栈信息  <code>debug_backtrace()</code> 。</p>
+</blockquote>
+<h3 id="缩进式多行代码"><a class="anchor" href="#缩进式多行代码">#</a> 缩进式多行代码</h3>
+<p>缩进 4 个空格或是 1 个制表符。</p>
+<p>一个代码区块会一直持续到没有缩进的那一行 (或是文件结尾)。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>$closure = function () use($name) &#123;</pre></td></tr><tr><td data-num="2"></td><td><pre>      return $name;</pre></td></tr><tr><td data-num="3"></td><td><pre>    &#125;</pre></td></tr></table></figure><pre><code>$closure = function () use($name) &#123;
+  return $name;
+&#125;
+</code></pre>
+<h3 id="用六个-包裹多行代码"><a class="anchor" href="#用六个-包裹多行代码">#</a> 用六个 ` 包裹多行代码</h3>
+<figure class="highlight php"><figcaption data-lang="PHP"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token string backtick-quoted-string">``</span><span class="token string backtick-quoted-string">`php</pre></td></tr><tr><td data-num="2"></td><td><pre>$closure = function () use($name) &#123;</pre></td></tr><tr><td data-num="3"></td><td><pre>  return $name;</pre></td></tr><tr><td data-num="4"></td><td><pre>&#125;</pre></td></tr><tr><td data-num="5"></td><td><pre>`</span> <span class="token string backtick-quoted-string">``</span></pre></td></tr></table></figure><figure class="highlight php"><figcaption data-lang="PHP"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token variable">$closure</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">use</span><span class="token punctuation">(</span><span class="token variable">$name</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token keyword">return</span> <span class="token variable">$name</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h3 id="html-原始码"><a class="anchor" href="#html-原始码">#</a> HTML 原始码</h3>
+<p>在代码区块里面， <code>&amp;</code>  、  <code>&lt;</code>  和  <code>&gt;</code>  会自动转成 HTML 实体，这样的方式让你非常容易使用 Markdown 插入范例用的 HTML 原始码，只需要复制贴上，剩下的 Markdown 都会帮你处理，例如:</p>
+<figure class="highlight html"><figcaption data-lang="HTML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>table</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="3"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span> <span class="token attr-name">rowspan</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>值班人员<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>星期一<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>星期二<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="6"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>th</span><span class="token punctuation">></span></span>星期三<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>th</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tr</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="9"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>李强<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="10"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>张明<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="11"></td><td><pre>        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>td</span><span class="token punctuation">></span></span>王平<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>td</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tr</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>table</span><span class="token punctuation">></span></span></pre></td></tr></table></figure><p>&lt;table&gt;<br />
+&lt;tr&gt;<br />
+&lt;th rowspan=&quot;2&quot;&gt; 值班人员 &lt;/th&gt;<br />
+&lt;th&gt; 星期一 &lt;/th&gt;<br />
+&lt;th&gt; 星期二 &lt;/th&gt;<br />
+&lt;th&gt; 星期三 &lt;/th&gt;<br />
+&lt;/tr&gt;<br />
+&lt;tr&gt;<br />
+&lt;td&gt; 李强 &lt;/td&gt;<br />
+&lt;td&gt; 张明 &lt;/td&gt;<br />
+&lt;td&gt; 王平 &lt;/td&gt;<br />
+&lt;/tr&gt;<br />
+&lt;/table&gt;</p>
+<h3 id="内容目录"><a class="anchor" href="#内容目录">#</a> 内容目录</h3>
+<p>在段落中填写  <code>[TOC]</code>  以显示全文内容的目录结构。</p>
+<h2 id="注脚"><a class="anchor" href="#注脚">#</a> 注脚</h2>
+<p>在需要添加注脚的文字后加上脚注名字 <code>[^注脚名字]</code> , 称为加注。 然后在文本的任意位置 (一般在最后) 添加脚注，脚注前必须有对应的脚注名字。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2]。</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^1</span><span class="token punctuation">]</span><span class="token punctuation">:</span> Markdown</span> 是一种纯文本标记语言</pre></td></tr><tr><td data-num="4"></td><td><pre></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token url-reference url"><span class="token punctuation">[</span><span class="token variable">^2</span><span class="token punctuation">]</span><span class="token punctuation">:</span> HyperText</span> Markup Language 超文本标记语言</pre></td></tr></table></figure><p>PS: github 不支持注脚 😂</p>
+<h2 id="latex-公式"><a class="anchor" href="#latex-公式">#</a> LaTeX 公式</h2>
+<h3 id="表示行内公式"><a class="anchor" href="#表示行内公式">#</a> $ 表示行内公式</h3>
+<p>质能守恒方程可以用一个很简洁的方程式 \E=mc^2 来表达。</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown</span></figcaption><table><tr><td data-num="1"></td><td><pre>独立块显示：</pre></td></tr><tr><td data-num="2"></td><td><pre>$$\begin &#123;array&#125;&#123;c&#125;</pre></td></tr><tr><td data-num="3"></td><td><pre>\nabla \times \vec &#123;\mathbf &#123;B&#125;&#125; -\, \frac1c\, \frac &#123;\partial\vec &#123;\mathbf &#123;E&#125;&#125;&#125;&#123;\partial t&#125; &amp;</pre></td></tr><tr><td data-num="4"></td><td><pre>= \frac &#123;4\pi&#125;&#123;c&#125;\vec &#123;\mathbf &#123;j&#125;&#125;    \nabla \cdot \vec &#123;\mathbf &#123;E&#125;&#125; &amp; = 4 \pi \rho \\</pre></td></tr><tr><td data-num="5"></td><td><pre>\nabla \times \vec &#123;\mathbf &#123;E&#125;&#125;\, +\, \frac1c\, \frac &#123;\partial\vec &#123;\mathbf &#123;B&#125;&#125;&#125;&#123;\partial t&#125; &amp; = \vec &#123;\mathbf &#123;0&#125;&#125; \\</pre></td></tr><tr><td data-num="6"></td><td><pre>\nabla \cdot \vec &#123;\mathbf &#123;B&#125;&#125; &amp; = 0</pre></td></tr><tr><td data-num="7"></td><td><pre>\end &#123;array&#125;$$</pre></td></tr></table></figure><p>独立块显示：</p>
+<p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mtable rowspacing="0.16em" columnalign="center" columnspacing="1em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>×</mo><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover><mo>−</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant="normal">∂</mi><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mi>c</mi></mfrac><mover accent="true"><mi mathvariant="bold">j</mi><mo>⃗</mo></mover><mi mathvariant="normal">∇</mi><mo>⋅</mo><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mn>4</mn><mi>π</mi><mi>ρ</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>×</mo><mover accent="true"><mi mathvariant="bold">E</mi><mo>⃗</mo></mover><mtext> </mtext><mo>+</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant="normal">∂</mi><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant="normal">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mover accent="true"><mn mathvariant="bold">0</mn><mo>⃗</mo></mover></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mi mathvariant="normal">∇</mi><mo>⋅</mo><mover accent="true"><mi mathvariant="bold">B</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="false"><mrow><mo>=</mo><mn>0</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex">\begin {array}{c}
+\nabla \times \vec {\mathbf {B}} -\, \frac1c\, \frac {\partial\vec {\mathbf {E}}}{\partial t} &amp;
+= \frac {4\pi}{c}\vec {\mathbf {j}}    \nabla \cdot \vec {\mathbf {E}} &amp; = 4 \pi \rho \\
+\nabla \times \vec {\mathbf {E}}\, +\, \frac1c\, \frac {\partial\vec {\mathbf {B}}}{\partial t} &amp; = \vec {\mathbf {0}} \\
+\nabla \cdot \vec {\mathbf {B}} &amp; = 0
+\end {array}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:4.1939em;vertical-align:-1.8469em;"></span><span class="mord"><span class="mtable"><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">B</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0724em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-2.714em;"><span class="pstrut" style="height:2.714em;"></span><span class="mord mathbf mtight">E</span></span><span style="top:-2.9691em;"><span class="pstrut" style="height:2.714em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay mtight" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-2.9146em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">E</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.0724em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord mathnormal mtight">t</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight" style="margin-right:0.05556em;">∂</span><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-2.714em;"><span class="pstrut" style="height:2.714em;"></span><span class="mord mathbf mtight">B</span></span><span style="top:-2.9691em;"><span class="pstrut" style="height:2.714em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay mtight" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span><span style="top:-1.5854em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">B</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8469em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8451em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">c</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">π</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mord accent"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.9774em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">j</span></span><span style="top:-3.2634em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.2355em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.1944em;"><span></span></span></span></span></span><span class="mord">∇</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9691em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">E</span></span><span style="top:-3.2551em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1522em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span></span></span><span style="top:-2.9146em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9274em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathbf">0</span></span><span style="top:-3.2134em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.2355em;"><span class="overlay" style="height:0.714em;width:0.471em;"><svg xmlns="http://www.w3.org/2000/svg" width="0.471em" height="0.714em" style="width:0.471em" viewBox="0 0 471 714" preserveAspectRatio="xMinYMin"><path d="M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5
+3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11
+10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63
+-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1
+-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59
+H213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359
+c-16-25.333-24-45-24-59z"/></svg></span></span></span></span></span></span></span></span></span><span style="top:-1.5854em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8469em;"><span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span><span class="arraycolsep" style="width:0.5em;"></span><span class="col-align-c"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:2.3469em;"><span style="top:-4.3469em;"><span class="pstrut" style="height:3.0724em;"></span><span class="mord"><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">4</span><span class="mord mathnormal" style="margin-right:0.03588em;">π</span><span class="mord mathnormal">ρ</span></span></span></span></span></span></span><span class="arraycolsep" style="width:0.5em;"></span></span></span></span></span></span></span></p>
+<p>PS: github 不支持 LaTeX 公式，但是有个折中的解决方案，使用 codecogs, 例如:</p>
+<h2 id="流程图"><a class="anchor" href="#流程图">#</a> 流程图</h2>
+<p>流程图大致分为两段，第一段是定义元素，第二段是定义元素之间的走向。</p>
+<p>定义元素的语法  <code>tag=&gt;type: content:&gt;url</code> 。</p>
+<ul>
+<li>tag 就是元素名字。</li>
+<li>type 是这个元素的类型，有 6 中类型，分别为:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>start</td>
+<td>开始</td>
+</tr>
+<tr>
+<td>end</td>
+<td>结束</td>
+</tr>
+<tr>
+<td>operation</td>
+<td>操作</td>
+</tr>
+<tr>
+<td>subroutine</td>
+<td>子程序</td>
+</tr>
+<tr>
+<td>condition</td>
+<td>条件</td>
+</tr>
+<tr>
+<td>inputoutput</td>
+<td>输入或产出</td>
+</tr>
+</tbody>
+</table>
+<p>content 就是在框框中要写的内容，注意 type 后的冒号与文本之间一定要有个空格。</p>
+<p>用 <code>-&gt;</code>  来连接两个元素，需要注意的是 condition 类型，因为他有 yes 和 no 两个分支，所以要写成:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>graph LR</pre></td></tr><tr><td data-num="2"></td><td><pre>    A[Square Rect] -- Link text --> B((Circle))</pre></td></tr><tr><td data-num="3"></td><td><pre>    A --> C(Round Rect)</pre></td></tr><tr><td data-num="4"></td><td><pre>    B --> D&#123;Rhombus&#125;</pre></td></tr><tr><td data-num="5"></td><td><pre>    C --> D</pre></td></tr></table></figure><figure class="highlight mermaid"><figcaption data-lang="mermaid"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">graph</span> LR</pre></td></tr><tr><td data-num="2"></td><td><pre>    A<span class="token text string">[Square Rect]</span> <span class="token inter-arrow-label"><span class="token arrow-head arrow operator">--</span> <span class="token label property">Link text</span> <span class="token arrow operator">--></span></span> B<span class="token text string">((Circle))</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    A <span class="token arrow operator">--></span> C<span class="token text string">(Round Rect)</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    B <span class="token arrow operator">--></span> D<span class="token text string">&#123;Rhombus&#125;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    C <span class="token arrow operator">--></span> D</pre></td></tr></table></figure><h2 id="时序图"><a class="anchor" href="#时序图">#</a> 时序图</h2>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre>```sequence</pre></td></tr><tr><td data-num="2"></td><td><pre>Alice->Bob: Hello Bob, how are you ?</pre></td></tr><tr><td data-num="3"></td><td><pre>Note right of Bob: Bob thinks</pre></td></tr><tr><td data-num="4"></td><td><pre>Bob-->Alice: I am good thanks!</pre></td></tr><tr><td data-num="5"></td><td><pre>` ``</pre></td></tr></table></figure><h2 id="待办事宜列表"><a class="anchor" href="#待办事宜列表">#</a> 待办事宜列表</h2>
+<p>使用带有  <code>[ ]</code>  或  <code>[x]</code>  (未完成或已完成) 项的列表语法撰写一个待办事宜列表，例如:</p>
+<figure class="highlight markdown"><figcaption data-lang="markdown"><span>markdown写法</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token list punctuation">*</span> [ ] 早起跑步</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token list punctuation">*</span> [x] 看书</pre></td></tr></table></figure><ul class="task-list">
+<li class="task-list-item"><input type="checkbox" id="cbx_0" disabled="true" /><label for="cbx_0"> 早起跑步</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_1" checked="true" disabled="true" /><label for="cbx_1"> 看书</label></li>
+</ul>
+<p><strong><a href="#%E4%BB%80%E4%B9%88%E6%98%AF-markdown-">⬆ top</a></strong></p>
+<div class="tags"><a href="/tags/markdown/" rel="tag"><i class="ic i-tag"></i>markdown</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">Edited on</span><time title="Modified: 2024-07-01 14:46:02" itemprop="dateModified" datetime="2024-07-01T14:46:02+08:00">2024-07-01</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>Donate</button><p>Give me a cup of [coffee]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="/assets/wechatpay.png" alt="SuperJeason WeChat Pay"/><p>WeChat Pay</p></div><div><img loading="lazy" data-src="/assets/alipay.png" alt="SuperJeason Alipay"/><p>Alipay</p></div></div></div><div id="copyright"><ul><li class="author"><strong>Post author: </strong>SuperJeason<i class="ic i-at"><em>@</em></i>Never Give Up</li><li class="link"><strong>Post link: </strong><a href="https://superjeason.github.io/2024/06/20/markdown/" title="markdown">https://superjeason.github.io/2024/06/20/markdown/</a></li><li class="license"><strong>Copyright Notice: </strong>All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> unless stating additionally.</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/2024/06/20/cmake/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;i.111666.best&#x2F;image&#x2F;Ho5sOTirs6Qk2xy5dnihBs.jpg" title="cmake"><span class="type">Previous Post</span><span class="category"><i class="ic i-flag"></i>教程</span><h3>cmake</h3></a></div><div class="item right"><a href="/2024/07/01/STL/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;i.111666.best&#x2F;image&#x2F;Wr01yXDK9W8IHy1QltbqXk.jpg" title="STL常用容器"><span class="type">Next Post</span><span class="category"><i class="ic i-flag"></i>STL</span><h3>STL常用容器</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="Contents"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-markdown"><span class="toc-number">1.</span> <span class="toc-text"> 什么是 Markdown ?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">2.</span> <span class="toc-text"> 分级标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number"></span> <span class="toc-text"> 这是一个一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 这是一个二级标题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number"></span> <span class="toc-text"> 一级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 二级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.1.</span> <span class="toc-text"> 三级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 四级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.1.1.1.</span> <span class="toc-text"> 五级标题</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="toc-number">1.1.1.1.1.</span> <span class="toc-text"> 六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E9%9A%94%E7%BA%BF"><span class="toc-number">2.</span> <span class="toc-text"> 分隔线</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="toc-number">3.</span> <span class="toc-text"> 超链接</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%8C%E5%86%85%E5%BC%8F"><span class="toc-number">3.1.</span> <span class="toc-text"> 行内式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%BC%8F"><span class="toc-number">3.2.</span> <span class="toc-text"> 参考式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5"><span class="toc-number">3.3.</span> <span class="toc-text"> 自动链接</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text"> 区块引用</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E7%9A%84%E5%A4%9A%E5%B1%82%E5%B5%8C%E5%A5%97"><span class="toc-number">4.1.</span> <span class="toc-text"> 引用的多层嵌套</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8%E5%85%B6%E5%AE%83%E8%A6%81%E7%B4%A0"><span class="toc-number">4.2.</span> <span class="toc-text"> 引用其它要素</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BC%BA%E8%B0%83"><span class="toc-number">5.</span> <span class="toc-text"> 强调</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%9C%E4%BD%93"><span class="toc-number">5.1.</span> <span class="toc-text"> 斜体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B2%97%E4%BD%93"><span class="toc-number">5.2.</span> <span class="toc-text"> 粗体</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E7%BA%BF"><span class="toc-number">5.3.</span> <span class="toc-text"> 删除线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E8%A1%A8"><span class="toc-number">6.</span> <span class="toc-text"> 列表</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">6.1.</span> <span class="toc-text"> 无序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8"><span class="toc-number">6.2.</span> <span class="toc-text"> 有序列表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8C%85%E5%90%AB%E5%BC%95%E7%94%A8%E7%9A%84%E5%88%97%E8%A1%A8"><span class="toc-number">6.3.</span> <span class="toc-text"> 包含引用的列表</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="toc-number">7.</span> <span class="toc-text"> 插入图片</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E8%A1%8C%E5%86%85%E5%BC%8F"><span class="toc-number">7.1.</span> <span class="toc-text"> 图片行内式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%89%87%E5%8F%82%E8%80%83%E5%BC%8F"><span class="toc-number">7.2.</span> <span class="toc-text"> 图片参考式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-number">8.</span> <span class="toc-text"> 表格</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-number">9.</span> <span class="toc-text"> 代码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E8%A1%8C%E5%86%85%E5%BC%8F"><span class="toc-number">9.1.</span> <span class="toc-text"> 代码行内式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%A9%E8%BF%9B%E5%BC%8F%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81"><span class="toc-number">9.2.</span> <span class="toc-text"> 缩进式多行代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E5%85%AD%E4%B8%AA-%E5%8C%85%E8%A3%B9%E5%A4%9A%E8%A1%8C%E4%BB%A3%E7%A0%81"><span class="toc-number">9.3.</span> <span class="toc-text"> 用六个 &#96; 包裹多行代码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#html-%E5%8E%9F%E5%A7%8B%E7%A0%81"><span class="toc-number">9.4.</span> <span class="toc-text"> HTML 原始码</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%86%85%E5%AE%B9%E7%9B%AE%E5%BD%95"><span class="toc-number">9.5.</span> <span class="toc-text"> 内容目录</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E8%84%9A"><span class="toc-number">10.</span> <span class="toc-text"> 注脚</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#latex-%E5%85%AC%E5%BC%8F"><span class="toc-number">11.</span> <span class="toc-text"> LaTeX 公式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E7%A4%BA%E8%A1%8C%E5%86%85%E5%85%AC%E5%BC%8F"><span class="toc-number">11.1.</span> <span class="toc-text"> $ 表示行内公式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%81%E7%A8%8B%E5%9B%BE"><span class="toc-number">12.</span> <span class="toc-text"> 流程图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E5%BA%8F%E5%9B%BE"><span class="toc-number">13.</span> <span class="toc-text"> 时序图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BE%85%E5%8A%9E%E4%BA%8B%E5%AE%9C%E5%88%97%E8%A1%A8"><span class="toc-number">14.</span> <span class="toc-text"> 待办事宜列表</span></a></li></ol></div><div class="related panel pjax" data-title="Related"><ul><li  class="active"><a href="/2024/06/20/markdown/" rel="bookmark" title="markdown">markdown</a></li></ul></div><div class="overview panel" data-title="Overview"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="SuperJeason" src="/assets/avatar.png"/><p class="name" itemprop="name">SuperJeason</p><div class="description" itemprop="description">Practice makes perfect</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">8</span><span class="name">posts</span></a></div><div class="item categories"><a href="/categories/"><span class="count">4</span><span class="name">categories</span></a></div><div class="item tags"><a href="/tags/"><span class="count">10</span><span class="name">tags</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/SuperJeason" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;SuperJeason"><i class="ic i-github"></i></a></div><div class="menu"><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>Home</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-star"></i>About This Site</a></li><li class="item"><a href="/admiration/" rel="section"><i class="ic i-coffee"></i>Appreciation</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>Posts</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>Archives</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>Categories</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>Tags</a></li></ul></li><li class="item"><a href="/links/" rel="section"><i class="ic i-heart"></i>links</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/2024/07/01/STL/STL%E5%B8%B8%E7%94%A8%E5%AE%B9%E5%99%A8/" rel="prev" title="Previous Post"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/2024/06/20/cmake/" rel="next" title="Next Post"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"></div><div class="status"><div class="copyright">&copy; 2022 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">SuperJeason @ SuperJeason</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="Symbols count total">57k words</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="Reading time total">52 mins.</span></div><div class="powered-by">Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `2024/06/20/markdown/`,
+        favicon: {
+        show: `SuperJeason`,
+        hide: `Never Give Up!`
+    },
+    search: {
+        placeholder: "Search for Posts",
+        empty: "We didn't find any results for the search: ${query}",
+        stats: "${hits} results found in ${time} ms"
+    },
+    copy_tex: true,
+    katex: true,
+    mermaid: true,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">Article Timeliness Alert</span><br>This is an article published {{publish}} days ago and last updated {{updated}} days ago. Some information may have changed, so please be careful to screen it.</p></div>`,
+    quiz: {
+        choice: `Multiple Choice`,
+        multiple: `Multiple Answer`,
+        true_false: `True/False`,
+        essay: `Questions`,
+        gap_fill: `Gap Filling`,
+        mistake: `Wrong Answer`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script data-pjax="data-pjax">var _hmt = _hmt || [];
+(function () {
+    const hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?true"
+    hm.async = true;
+    const s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+ })();</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=true;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "true");</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&amp;features=default,fetch" defer></script><script src="/js/siteInit.js?v=0.4.9" type="module" fetchpriority="high" defer></script></body></html>
